@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  <form>
+    <label>Enter your name</label>
+    <input #newName>
+    <button type="submit" (click)='submitForm(newName.value); newName.value=""'>Submit</button>
+  </form>
+</div>
