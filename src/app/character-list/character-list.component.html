@@ -1,0 +1,10 @@
+<h2>Character List</h2>
+
+
+<div *ngFor="let character of characters | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{character.name}}</em></h3>
+    <br>
+      <p> Points: {{character.points }} </p>
+  </div>
+</div>

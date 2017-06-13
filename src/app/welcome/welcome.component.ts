@@ -18,7 +18,6 @@ export class WelcomeComponent implements OnInit{
     var newCharacter: Character = new Character(inputName);
     console.log(newCharacter);
     this.adventureService.addCharacter(newCharacter);
-
   }
 
 }
